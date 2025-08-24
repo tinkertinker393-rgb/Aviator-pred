@@ -1,0 +1,78 @@
+body {
+  background: #181818;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  min-height: 100vh;
+}
+.main-title {
+  margin-top: 40px;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+.platforms {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 60px 0;
+  flex-wrap: wrap;
+}
+.platform-bar {
+  background: #222;
+  padding: 50px 40px;
+  border-radius: 16px;
+  font-size: 2em;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 4px 16px #0009;
+  min-width: 160px;
+  margin: 16px;
+}
+.platform-bar:hover {
+  background: #0a0;
+  color: #fff;
+  transform: scale(1.04);
+}
+#aviator-container {
+  margin: 30px auto;
+  width: 320px;
+}
+#predict-btn {
+  background: #0a0;
+  border: none;
+  color: #fff;
+  padding: 14px 40px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#predict-btn:disabled {
+  background: #333;
+  cursor: not-allowed;
+}
+#prediction-result {
+  margin-top: 30px;
+  font-size: 2em;
+  color: #bada55;
+  min-height: 2em;
+}
+.back-btn-container {
+  margin-top: 40px;
+}
+#back-btn {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+#back-btn:hover {
+  background: #444;
+}
